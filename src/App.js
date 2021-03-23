@@ -52,7 +52,7 @@ class App extends Component {
         fbContent = (
             <div>
                 <HomePage />
-                <div path="/home" className="user_info">
+                <div className="user_info">
                 <img src={this.state.picture} alt={this.state.name} />
                 <h2>Welcome {this.state.name}</h2>
                 Email: {this.state.email}
